@@ -101,10 +101,25 @@ $ jobs -l
 [4]- 19741 Stopped                 watch date
 [5]+ 19751 Stopped                 watch date
 ```
+---
 
 ### **4) kill**
-
-
+---
++ 프로세스를 종료함
++ 프로세스에 시그널 전송함
++ 아래 표의 9 옵션 이용시 프로세스 강제 종료
+---
+|시그널|번호|설명|
+|:---:|:---:|---|
+|HUP|1|프로세스에 재기동을 통지함|
+|INT|2|프로세스에 인터럽트를 통지함|
+|QUIT|3|프로세스에 종료를 통지함|
+|KILL|9|프로세스에 강제종료를 통지함|
+|TERM|15|프로세스에 종료를 통지함|
+|STOP|17|프로세스에 중단을 통지함|
+|CONT|19|프로세스에 재개를 통지함|
+---
 https://www.wikidocs.net/36783
 https://wikidocs.net/36674
 https://wikidocs.net/44362
+https://wikidocs.net/47975
