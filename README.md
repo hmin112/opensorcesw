@@ -141,3 +141,5 @@ $ kill -9 15302
 ```
 [kill](https://wikidocs.net/47975)
 ---
+
+<img src="https://user-images.githubusercontent.com/106798142/171936044-6afeb18d-f8b6-4630-8ceb-a87e7d0e6823.jpeg" width="480" height="360">
