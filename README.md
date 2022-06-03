@@ -37,6 +37,7 @@ $ top -d 10
 # pid 지정하여 1024 프로세스의 정보만 출력 
 $ top -p 1024 
 ```
+[top](https://www.wikidocs.net/36783)
 ---
 ### **2) ps**
 ---
@@ -66,6 +67,8 @@ ps와 top의 차이점
 |START|프로세스 시작 시간|
 |COMMAND, CMD|실행된 명령 라인|
 |STAT|프로세스의 상태(R: 실행 가능, S: 슬립, D: 디스크 내부, T: 정지, Z: 좀비)|
+
+[ps](https://wikidocs.net/36674)
 ---
 ### **3) job**
 ---
@@ -101,8 +104,8 @@ $ jobs -l
 [4]- 19741 Stopped                 watch date
 [5]+ 19751 Stopped                 watch date
 ```
+[job](https://wikidocs.net/44362)
 ---
-
 ### **4) kill**
 ---
 + 프로세스를 종료함
@@ -119,7 +122,22 @@ $ jobs -l
 |STOP|17|프로세스에 중단을 통지함|
 |CONT|19|프로세스에 재개를 통지함|
 ---
-https://www.wikidocs.net/36783
-https://wikidocs.net/36674
-https://wikidocs.net/44362
-https://wikidocs.net/47975
+### 사용예제
+---
+```c
+# 잡아이디를 이용한 종료 
+$ jobs
+[1]+  Stopped                 hive
+
+$ kill -9 %1
+
+# 프로세스 아이디를 이용한 종료 
+$ ps
+  PID TTY          TIME CMD
+15302 pts/0    00:00:00 bash
+16357 pts/0    00:00:00 ps
+
+$ kill -9 15302
+```
+[kill](https://wikidocs.net/47975)
+---
