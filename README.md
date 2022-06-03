@@ -1,2 +1,4 @@
-# opensorcesw
-opensorcesw
+# top, ps, job, kill 명령어
+---
+###### 컴퓨터공학과 20223203 김형민
+---
