@@ -80,8 +80,27 @@ ps와 top의 차이점
 |Running|실행 중|
 |Stoped|일시 중단(Ctrl + Z)|
 |Teminated|강제 종료(kill 명령 종료)|
-|Done|정상 종료||
+|Done|정상 종료|
 ---
+### 사용예제
+###### [] 표시는 순서, - 는 이전 프로세스, + 는 현제 프로세스
+```c
+# 실행중인 프로세스를 표시 
+$ jobs 
+[1]   Stopped                 watch date
+[2]   Stopped                 watch date
+[3]   Stopped                 watch date
+[4]-  Stopped                 watch date
+[5]+  Stopped                 watch date
+
+# 실행 중인 프로세스의 PID 확인 
+$ jobs -l
+[1]  18129 Stopped                 watch date
+[2]  18188 Stopped                 watch date
+[3]  19726 Stopped                 watch date
+[4]- 19741 Stopped                 watch date
+[5]+ 19751 Stopped                 watch date
+```
 
 ### **4) kill**
 
