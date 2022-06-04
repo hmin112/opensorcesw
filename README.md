@@ -164,5 +164,6 @@ let @w='wyw$a = #(^M    [^[pbg~w$a, "^[pa"],^M#^[pa^M);^[0xx$'
 let @e='0yypi#^[@wa^M}^[kkkkk$a^M{^[j4>>k6>>6>>'
 let @r='dwdwyypki   case ^[wg~w$a :^[j>>>>$a( c, ind );^Mbreak;^[jdd.....0'
 ```
+[매크로](https://forcecore.tistory.com/1255)
 ---
 <img src="https://user-images.githubusercontent.com/106798142/171936044-6afeb18d-f8b6-4630-8ceb-a87e7d0e6823.jpeg" width="480" height="360">
